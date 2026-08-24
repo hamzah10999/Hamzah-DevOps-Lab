@@ -62,6 +62,7 @@ minikube service hello-k8s
 ```
 
 You should see the Nginx welcome page. **Congratulations, you just deployed your first container in Kubernetes!**
+![Nginx-Welcome](Images/nginx-welcome-page.png)
 
 ## Troubleshooting Notes
 

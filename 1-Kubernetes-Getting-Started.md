@@ -1,8 +1,8 @@
 # Kubernetes Hands-On Exercise Series
 
-Welcome to **Exercise-1 Kubernetes (K8s) exercises!**
+**Exercise-1 Kubernetes (K8s) exercise!**
 
-These activities will help you understand the basics of how Kubernetes runs and manages containerized applications.
+This activitie will help us to understand the basics of how Kubernetes runs and manages containerized applications.
 
 ## Business Problem (Zepto Example)
 

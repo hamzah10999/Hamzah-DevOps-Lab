@@ -6,11 +6,11 @@ A collection of hands-on DevOps exercises completed as part of the **DevOps** co
 
 | Field | Value |
 |---|---|
-| Name | Hamzah |
+| Name | Hamzah Ahmad |
 | USN | 1BM23IS100 |
 | Department | Information Science and Engineering (ISE) |
 | Semester | 7th Semester |
-| Faculty | Prof. Sunag P Sumukha |
+| Faculty | Prof. Sunag P & Sumukha |
 | Course | DevOps |
 
 ## About This Repository
@@ -34,6 +34,7 @@ More exercises will be added here as the course progresses.
 - Git & GitHub
 
 ## Repository Structure
+
 Hamzah-DevOps-Lab/
 ├── README.md
 ├── 1-Kubernetes-Getting-Started.md

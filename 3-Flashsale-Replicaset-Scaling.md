@@ -41,14 +41,24 @@ RUN pip install --no-cache-dir flask gunicorn
 CMD ["gunicorn","-b","0.0.0.0:5000","app:app","--workers","1","--threads","2"]
 ```
 
-## Build the image into Minikube's Docker daemon
+## Step 1: Confirm Minikube is running
+
+```bash
+minikube status
+```
+
+![Minikube status](Images/flashsale-minikube-status.png)
+
+## Step 2: Build the image into Minikube's Docker daemon
 
 ```bash
 eval $(minikube docker-env)
 docker build -t flashsale:1.0 .
 ```
 
-## ReplicaSet + Service YAML
+![Docker build](Images/flashsale-docker-build.png)
+
+## Step 3: ReplicaSet + Service YAML
 
 ```yaml
 apiVersion: apps/v1
@@ -107,17 +117,26 @@ spec:
   type: ClusterIP
 ```
 
-## Apply and verify
+## Step 4: Apply the ReplicaSet
 
 ```bash
 kubectl apply -f flashsale-replicaset.yaml
+```
+
+![ReplicaSet and Service applied](Images/flashsale-apply.png)
+
+## Step 5: Verify initial pods and ReplicaSet
+
+```bash
 kubectl get pods
 kubectl get rs
 ```
 
+![Initial pods running](Images/flashsale-initial-pods.png)
+
 3 Pods come up, all `Running`.
 
-## Scale up to 5 replicas
+## Step 6: Scale up to 5 replicas
 
 ```bash
 kubectl scale rs flashsale-rs --replicas=5
@@ -125,7 +144,7 @@ kubectl get rs
 kubectl get pods
 ```
 
-## Delete a pod and observe self-healing
+## Step 7: Delete a pod and observe self-healing
 
 ```bash
 kubectl delete pod <pod-name>

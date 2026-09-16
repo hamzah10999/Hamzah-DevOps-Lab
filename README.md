@@ -23,7 +23,7 @@ This repository documents practical exercises exploring core DevOps tools and co
 |---|---|---|
 | 1 | [Kubernetes: Getting Started](1-Kubernetes-Getting-Started.md) | Deploying a containerized web app (Nginx) as a Pod on a local Kubernetes cluster using Minikube, and exposing it as a Service. |
 | 2 | [Flask App Deployment](2-Flask-App-Deployment.md) | Building a custom Docker image and deploying a Flask app via a Kubernetes Deployment and Service on Minikube. |
-
+| 3 | [Flashsale ReplicaSet Scaling](3-Flashsale-Replicaset-Scaling.md) | Scaling a Flask checkout service using a Kubernetes ReplicaSet, observing self-healing and pod distribution
 More exercises will be added here as the course progresses.
 
 ## Tools Used

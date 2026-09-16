@@ -39,9 +39,27 @@ Hamzah-DevOps-Lab/
 ├── README.md
 ├── 1-Kubernetes-Getting-Started.md
 ├── 2-Flask-App-Deployment.md
+├── 3-Flashsale-Replicaset-Scaling.md
+├── flask-k8s-exercise/
+│   ├── app.py
+│   ├── Dockerfile
+│   └── flask-deployment.yaml
+├── flashsale-k8s-exercise/
+│   ├── app.py
+│   ├── Dockerfile
+│   └── flashsale-replicaset.yaml
 └── Images/
-├── cluster-ready.png
-├── pod-running.png
-├── nginx-welcome-page.png
-└── (flask exercise screenshots)
+    ├── cluster-ready.png
+    ├── pod-running.png
+    ├── nginx-welcome-page.png
+    ├── flask-minikube-status.png
+    ├── flask-docker-build.png
+    ├── flask-kubectl-apply.png
+    ├── flask-deployment-status.png
+    ├── flask-curl-response.png
+    ├── flashsale-minikube-status.png
+    ├── flashsale-docker-build.png
+    ├── flashsale-apply.png
+    ├── flashsale-initial-pods.png
+    └── flashsale-self-heal.png
 

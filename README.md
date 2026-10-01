@@ -26,7 +26,7 @@ This repository documents practical exercises exploring core DevOps tools and co
 | 3 | [Flashsale ReplicaSet Scaling](3-Flashsale-Replicaset-Scaling.md) | Scaling a Flask checkout service using a Kubernetes ReplicaSet, observing self-healing and pod distribution
 | 4 | [Docker Networking: Multi-Container App](4-Docker-Networking-Multi-Container.md) | Building a custom Docker bridge network to connect a Flask API, MySQL, and Redis, and verifying inter-container communication. |
 | 5 | [Docker Security with AppArmor](5-Docker-Security-AppArmor.md) | Investigating AppArmor-based container security, including a documented platform limitation on Docker Desktop for macOS. |
-
+| 6 | [Monitoring with Prometheus & Grafana](6-Monitoring-Prometheus-Grafana.md) | Building a real-time metrics pipeline with Python, Prometheus, and Grafana, including a documented macOS Docker networking fix. |
 
 More exercises will be added here as the course progresses.
 

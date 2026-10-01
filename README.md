@@ -25,6 +25,9 @@ This repository documents practical exercises exploring core DevOps tools and co
 | 2 | [Flask App Deployment](2-Flask-App-Deployment.md) | Building a custom Docker image and deploying a Flask app via a Kubernetes Deployment and Service on Minikube. |
 | 3 | [Flashsale ReplicaSet Scaling](3-Flashsale-Replicaset-Scaling.md) | Scaling a Flask checkout service using a Kubernetes ReplicaSet, observing self-healing and pod distribution
 | 4 | [Docker Networking: Multi-Container App](4-Docker-Networking-Multi-Container.md) | Building a custom Docker bridge network to connect a Flask API, MySQL, and Redis, and verifying inter-container communication. |
+| 5 | [Docker Security with AppArmor](5-Docker-Security-AppArmor.md) | Investigating AppArmor-based container security, including a documented platform limitation on Docker Desktop for macOS. |
+
+
 More exercises will be added here as the course progresses.
 
 ## Tools Used

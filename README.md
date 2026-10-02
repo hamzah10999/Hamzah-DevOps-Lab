@@ -28,6 +28,7 @@ This repository documents practical exercises exploring core DevOps tools and co
 | 5 | [Docker Security with AppArmor](5-Docker-Security-AppArmor.md) | Investigating AppArmor-based container security, including a documented platform limitation on Docker Desktop for macOS. |
 | 6 | [Monitoring with Prometheus & Grafana](6-Monitoring-Prometheus-Grafana.md) | Building a real-time metrics pipeline with Python, Prometheus, and Grafana, including a documented macOS Docker networking fix. |
 | 7 | [CI & Jenkins Introduction](7-CI-Jenkins-Introduction.md) | Overview of Continuous Integration concepts and tools, plus installing and unlocking Jenkins via Docker. |
+| 8 | [Jenkins Hello World Job](8-Jenkins-Hello-World-Job.md) | Creating a GitHub repo and a Jenkins Freestyle job that clones it and runs a shell script, including two real build-failure fixes. |
 
 More exercises will be added here as the course progresses.
 

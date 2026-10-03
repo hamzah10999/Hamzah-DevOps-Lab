@@ -29,6 +29,7 @@ This repository documents practical exercises exploring core DevOps tools and co
 | 6 | [Monitoring with Prometheus & Grafana](6-Monitoring-Prometheus-Grafana.md) | Building a real-time metrics pipeline with Python, Prometheus, and Grafana, including a documented macOS Docker networking fix. |
 | 7 | [CI & Jenkins Introduction](7-CI-Jenkins-Introduction.md) | Overview of Continuous Integration concepts and tools, plus installing and unlocking Jenkins via Docker. |
 | 8 | [Jenkins Hello World Job](8-Jenkins-Hello-World-Job.md) | Creating a GitHub repo and a Jenkins Freestyle job that clones it and runs a shell script, including two real build-failure fixes. |
+| 9 | [Jenkins Multi-Stage Pipeline](9-Jenkins-MultiStage-Pipeline.md) | Building a Pipeline-as-code CI/CD job with Build, Test, Deploy, Run, and re-Test stages for a Flask app, including installing Python into the Jenkins container. |
 
 More exercises will be added here as the course progresses.
 
